@@ -1,3 +1,4 @@
+let firebase;
 describe('LoginPage', () => {
     beforeEach(() => {
       cy.visit('/login');
