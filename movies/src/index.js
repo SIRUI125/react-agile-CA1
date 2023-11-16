@@ -18,6 +18,7 @@ import TVPage from "./pages/TVPage";
 import TVDetailPage from "./pages/TVDetailPage";
 import LoginPage from './pages/loginPage'; 
 import LogoutPage from './pages/logoutpage'; 
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
