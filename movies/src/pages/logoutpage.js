@@ -4,9 +4,8 @@ import { Button, Container, Typography } from '@mui/material';
 import { signOut } from 'firebase/auth';
 import { auth } from '../components/firebase/firebase'; 
 
-const LogoutPage = () => {
+  const LogoutPage = () => {
   const navigate = useNavigate();
-
   const handleLogout = async () => {
     try {
       await signOut(auth);
