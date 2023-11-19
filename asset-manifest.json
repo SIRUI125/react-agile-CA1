@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/my-app/static/js/main.5b98974b.js",
+    "static/media/pexels-dziana-hasanbekava-5480827.jpg": "/my-app/static/media/pexels-dziana-hasanbekava-5480827.6123c500508cea5447e7.jpg",
+    "static/media/film-poster-placeholder.png": "/my-app/static/media/film-poster-placeholder.9a8182eb4c8ae70fe602.png",
+    "index.html": "/my-app/index.html",
+    "main.5b98974b.js.map": "/my-app/static/js/main.5b98974b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5b98974b.js"
+  ]
+}
