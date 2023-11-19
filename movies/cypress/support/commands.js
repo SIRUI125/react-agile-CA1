@@ -15,3 +15,11 @@ Cypress.Commands.add('testPeoplePage', (statusCode, body) => {
     cy.visit(`/people/${id}`);
     cy.wait('@getPeopleDetail');
   });
+  Cypress.Commands.add('loadTVShows', () => {
+    cy.visit('http://localhost:3000/movies/TV'); 
+  });
+  
+  Cypress.Commands.overwrite('visit', (originalFn, url, options) => {
+    console.log('Visiting:', url);
+    return originalFn(url, options);
+  });
