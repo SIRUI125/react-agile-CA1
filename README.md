@@ -42,5 +42,6 @@ cypress/e2e/toprated.cy.js
 ## Independent learning
 I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
+Gitlab("https://gitlab.com/SIRUI125/agile-ca1.git")
 ## Auto-deployment
-Reference:"https://sirui125.github.io/react-agile-CA1/","https://github.com/SIRUI125/react-agile-CA1/settings/pages"
+Reference:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"
