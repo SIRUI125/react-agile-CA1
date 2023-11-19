@@ -1,3 +1,4 @@
+import '../support/commands'
 let PeoplePage;
 let getPeopleDetail;
 describe('People Page', () => {
