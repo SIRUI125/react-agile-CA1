@@ -81,5 +81,6 @@ Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
 I studied the tutorials on the firebase website and added them to my project.With firebase installed,users can log in with their email and password safely.
 ## Reference
 Pagination:" https://mui.com/material-ui/react-pagination/#basic-pagination"
+
 Install firebase:"https://firebase.google.com/docs/web/setup?authuser=0&hl=zh"
 
