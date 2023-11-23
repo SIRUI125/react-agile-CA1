@@ -5,7 +5,7 @@ Name: Sirui Yao
 ## Overview.
 
 This assignment is based on web assignment and add cypress tests and GitLab CI pipeline,and also use code splitting in the assignment.
-When a new and separate branch is created every time a new function is tested.Then the new branch will be merged into develop branch.At last,the new branches will be all merged into main branch.
+When a new and separate branch is created every time a new function is tested.Then the new branch will be merged into develop branch.At last,the new branches will be all merged into main branch.This repository contains the implementation of a React App, its associated Cypress tests and the GitLab CI pipeline.
 
 ### Features.
 + Add toprated page
@@ -32,7 +32,11 @@ In the assignments,I use cypress custom commands to do tests.
 Movieslist Test:Test that the movieslist interface works properly, and test that each movie card goes to the detail screen when clicked.
 + cypress/e2e/movieslist.cy.js
 ## Error/Exception testing 
-Toprated Test:Use error/exception testing for the movie list and the title of the movies,filter card function of the topratedmovie page,the movie genres in movie detail page.Ensure that all these interfaces work properly by testing.
+Toprated Test:
+1.Show the movie list and the title of the movies when no movies has been chosen.
+2.On topratedmovie page,the filter card function will start.
+3.Show the movie genres in movie detail page.
+4.Ensure that all these interfaces work properly by testing.
 + cypress/e2e/toprated.cy.js
 
 ## Cypress Custom commands tests
@@ -47,9 +51,18 @@ People Test:Use cypress custom commands to test whether the Most Popular Actors 
 TV Test:Use cypress custom commands to test tv page,if the tv page can be presented and show the details of tv.
 + cypress/e2e/tv.cy.js
 
+## Code Splitting
+file:image/CodeSplitting.png
+src/index.js
+src/pages/homepage.js
+src/components/movielist/index.js
+src/components/TVReview/index.js
+src/components/templateTVpage/index.js
+## Pull Requests
+URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
 I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
 Gitlab("https://gitlab.com/SIRUI125/agile-ca1.git")
 ## Auto-deployment
-file:auto-deployment.png,url:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"
+file:image/auto-deployment.png,url:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"
