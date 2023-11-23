@@ -28,6 +28,9 @@ In the assignments,I use cypress custom commands to do tests.
 
 ## Automated Tests.
 
+##  Best test cases.
+cypress/e2e/movieslist.cy.js
+cypress/e2e/filtering.cy.js
 ## Unique functionality testing 
 Movieslist Test:Test that the movieslist interface works properly, and test that each movie card goes to the detail screen when clicked.
 + cypress/e2e/movieslist.cy.js
@@ -50,20 +53,33 @@ People Test:Use cypress custom commands to test whether the Most Popular Actors 
 + cypress/e2e/people.cy.js
 TV Test:Use cypress custom commands to test tv page,if the tv page can be presented and show the details of tv.
 + cypress/e2e/tv.cy.js
-
+## Auto-deployment
+file:image/auto-deployment.png,url:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"
 ## Code Splitting
 file:image/CodeSplitting.png
+
+Route-based Code Splitting
 src/index.js
+Pages (src/pages)
 src/pages/homepage.js
+src/pages/loginPage.js
+src/pages/logoutpage.js
+src/pages/movieDetailPage.js
+src/pages/peoplePage.js
+src/pages/topratedPage.js
+Components (src/components/)
 src/components/movielist/index.js
 src/components/TVReview/index.js
 src/components/templateTVpage/index.js
+src/components/TVCard/index.js
+src/components/TVReviewForm/index.js
 ## Pull Requests
-url:https://github.com/SIRUI125/react-agile-CA1/pulls
+URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
 I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
-Gitlab("https://gitlab.com/SIRUI125/agile-ca1.git")
-## Auto-deployment
-file:image/auto-deployment.png,url:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"
+I studied the tutorials on the firebase website and added them to my project.With firebase installed,users can log in with their email and password safely.
+## Reference
+Pagination:" https://mui.com/material-ui/react-pagination/#basic-pagination"
+Install firebase:"https://firebase.google.com/docs/web/setup?authuser=0&hl=zh"
 
