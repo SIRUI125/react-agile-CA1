@@ -22,10 +22,6 @@ When a new and separate branch is created every time a new function is tested.Th
 + Add login and logout function
 + Write reviews about movies
 
-## Setup requirements.
-When you need to Auto-deployment,you should npm install --save gh-pages and add "homepage": "https://sirui125.github.io/my-app" to my package.json
-In the assignments,I use cypress custom commands to do tests.
-
 ## Automated Tests.
 
 ##  Best test cases.
