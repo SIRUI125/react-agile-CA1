@@ -22,10 +22,6 @@ When a new and separate branch is created every time a new function is tested.Th
 + Add login and logout function
 + Write reviews about movies
 
-## Setup requirements.
-When you need to Auto-deployment,you should npm install --save gh-pages and add "homepage": "https://sirui125.github.io/my-app" to my package.json
-In the assignments,I use cypress custom commands to do tests.
-
 ## Automated Tests.
 
 ##  Best test cases.
@@ -82,9 +78,7 @@ src/components/TVReviewForm/index.js
 ## Pull Requests
 URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
-I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
+I studied the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
 I studied the tutorials on the firebase website and added them to my project.With firebase installed,users can log in with their email and password safely.
-## Reference
-Pagination:" https://mui.com/material-ui/react-pagination/#basic-pagination"
-Install firebase:"https://firebase.google.com/docs/web/setup?authuser=0&hl=zh"
+After studying cypress custom commands and error/exception test,I used the materials and applied them into my assignment successfully.
