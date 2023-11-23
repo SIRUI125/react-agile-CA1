@@ -61,8 +61,8 @@ src/components/templateTVpage/index.js
 ## Pull Requests
 URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
+Gitlab("https://gitlab.com/SIRUI125/agile-ca1")
 I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
-Gitlab("https://gitlab.com/SIRUI125/agile-ca1.git")
 ## Auto-deployment
 file:image/auto-deployment.png,url:"https://github.com/SIRUI125/react-agile-CA1/settings/pages"

@@ -1,6 +1,4 @@
 import '../support/commands'
-let PeoplePage;
-let getPeopleDetail;
 describe('People Page Test', () => {
     it('shows spinner and then people list', () => {
       cy.intercept('GET', 'https://api.themoviedb.org/3/person/popular?api_key=${Cypress.env("TMDB_KEY")}&language=en-US&page=1', {
