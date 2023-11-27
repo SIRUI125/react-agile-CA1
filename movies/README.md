@@ -22,6 +22,10 @@ When a new and separate branch is created every time a new function is tested.Th
 + Add login and logout function
 + Write reviews about movies
 
+## Setup requirements.
+When you need to Auto-deployment,you should npm install --save gh-pages and add "homepage": "https://sirui125.github.io/my-app" to my package.json
+In the assignments,I use cypress custom commands to do tests.
+
 ## Automated Tests.
 
 ##  Best test cases.
@@ -60,21 +64,27 @@ Pages (src/pages)
 src/pages/homepage.js
 src/pages/addMovieReviewPage.js
 src/pages/favoriteMoviesPage.js
+src/pages/loginPage.js
+src/pages/logoutpage.js
 src/pages/movieDetailPage.js
 src/pages/peoplePage.js
 src/pages/topratedPage.js
 src/pages/TVPage.js
+src/pages/TVDetailPage.js
 Components (src/components/)
 src/components/movielist/index.js
 src/components/TVReview/index.js
 src/components/templateTVpage/index.js
 src/components/peoplecard/index.js
 src/components/peoplereview/index.js
-
+src/components/TVCard/index.js
+src/components/TVReviewForm/index.js
 ## Pull Requests
 URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
-I studied the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
+I study the cypress custom commands("https://docs.cypress.io/api/cypress-api/custom-commands#Syntax")
 Auto-deployment("https://create-react-app.dev/docs/deployment/#github-pages")
 I studied the tutorials on the firebase website and added them to my project.With firebase installed,users can log in with their email and password safely.
-After studying cypress custom commands and error/exception test,I used the materials and applied them into my assignment successfully.
+## Reference
+Pagination:" https://mui.com/material-ui/react-pagination/#basic-pagination"
+Install firebase:"https://firebase.google.com/docs/web/setup?authuser=0&hl=zh"
