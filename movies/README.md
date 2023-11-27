@@ -60,21 +60,17 @@ Pages (src/pages)
 src/pages/homepage.js
 src/pages/addMovieReviewPage.js
 src/pages/favoriteMoviesPage.js
-src/pages/loginPage.js
-src/pages/logoutpage.js
 src/pages/movieDetailPage.js
 src/pages/peoplePage.js
 src/pages/topratedPage.js
 src/pages/TVPage.js
-src/pages/TVDetailPage.js
 Components (src/components/)
 src/components/movielist/index.js
 src/components/TVReview/index.js
 src/components/templateTVpage/index.js
 src/components/peoplecard/index.js
 src/components/peoplereview/index.js
-src/components/TVCard/index.js
-src/components/TVReviewForm/index.js
+
 ## Pull Requests
 URL:https://github.com/SIRUI125/react-agile-CA1/pulls
 ## Independent learning
